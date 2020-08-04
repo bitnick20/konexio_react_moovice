@@ -17,7 +17,7 @@ class App extends React.Component {
   render () {
     return (
       <Router>
-        <div>
+        <div className="container-fluid">
           <nav>
             <ul>
               <li><Link to="/">This week</Link></li>
